@@ -6,12 +6,18 @@
 
 body {
     font-size: 20px;
-    background-image: url(/images/photo-1426927308491-6380b6a9936f.jpg); 
+}
+
+#container{
+    border: 2px solid black;
+    width: 90%;
+    margin: 1em auto 1em auto;
 }
 
 #header {
     width: 80%;
     margin: auto;
+    margin-top: 1em;
     background-color: grey;
 }
 
@@ -60,14 +66,43 @@ li a:hover, a:focus {
 }
 
 #content{
-    width: 50%;
+    width: 60%;
     margin: auto;
     margin-top: .2em;
-    background-color: blue;
-    border: solid 2px black;
+    border: solid 2px black;   
+     margin-top:1em ;
+    margin-bottom: 1em;
 }
 
-#content h2 {
+h2 {
     margin:0.5em;
     padding:0.2em;
 }
+
+#content p{
+    text-align: center;
+    width: 20em;
+    margin: auto;
+}
+
+#copyright{
+    width: 60%;
+    margin: auto;
+    margin-top: .2em;
+     margin-top:1em ;
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+#tools_data {
+    width: 90%;
+    margin:auto;
+    margin-top:1em ;
+    margin-bottom: 1em;
+    background-color: #d6d5d5;
+
+}
+ td{
+     border: 2px solid black;
+     padding: 5px;
+ }
